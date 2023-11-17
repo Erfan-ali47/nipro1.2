@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/* common start */
+body{
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    
+}
+/* common end */
+/* header start */
+header{
+    padding: 1px 200px;
+}
+.c_con{
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.b_title{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+.menu{
+
+} 
+.menu ul li a{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 16px!important;
+}
+.menu ul li a:last-child i{
+    padding-right: 0!important;
+}
+.menu ul li a :hover{} 
+/* header end */
+/* banner1_start */
+.banner1 {
+    padding: 0px;
+}
+.artical {
+    transform: translate(0, -180%);
+    /* padding-right: 25px !important; */
+    padding-left: 13% !important;
+}
+.artical h1 {
+    font-family: 'Lato-Bold',sans-serif; 
+    font-size: 60px; 
+    font-weight: 700; 
+    /* color: white; */
+}
+.artical p {
+    font-size: 14px; font-weight: 500; 
+    padding: 22px 376px;
+    font-weight: 500; 
+    transform: translate(-376px, 0); 
+    line-height: 30px;  
+    /* color: white; */
+}
+.s_para
+{}
+.artical a
+{}
+.f_wh {
+    padding: 8px 20px; 
+    transform: translate(0, 28px); 
+    font-family: 'RobotoCondensed-Medium',sans-serif; 
+    font-size: 16px; 
+    font-weight: 600; 
+    color: black; 
+    text-transform: uppercase;
+}
+.f_st {
+    background-color: #ffffff;
+}
+.f_wh i {
+    padding: 0 5px;
+}
+/* banner1_end */
+/* banner2_start */
+.banner2{}
+.for_content{}
+.for_content h1 {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    color: black;
+}
+.for_content p {
+    padding: 0px 117px;
+    padding-bottom: 117px;
+    color: black;
+}
+.fborder{
+    /* padding:100px;
+    margin-top: -58 !important;  */
+}
+.b2logo {
+    font-size: 50px;
+    transform: translate(0px, -374px);;
+}
+.b2logo:nth-of-type(3) i {
+    color: black;
+}
+.b2logo i {
+    color: #9d9d9d;
+    box-shadow: 0 0px 2px 14px white;
+    background-color: white;
+}
+.contentin {
+    position: relative;
+    bottom: 340px;
+    line-height: 29px;
+}
+.contentin h2 {
+    font-size: 30px;
+    color: black;
+}
+.boundary {
+    border: 1px solid #9d9d9d;
+    width: 47px;
+    margin: 30px auto;
+}
+
+.contentin p {
+    padding: 0px 29px;
+    color: #9d9d9d;
+}
+.contentin h3 {
+    font-family: 'RobotoCondensed-Medium',sans-serif;
+    color:  black;
+}
+.contentin h3 i {
+    margin: 0px 5px !important;
+    color:  black;
+}
+/* banner2_end */
+/*about us start*/
+.about{
+    padding-bottom: 100px;
+}
+.bout_img{}
+.about_img img{
+}
+.about_text{
+    padding-left: 45px;
+}
+.about_text h1{
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+}
+.about_text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.a_btn{
+    margin-top: 25px;
+    border: 2px solid black;
+}
+.a_btn:hover{
+    color: var(--black);
+    background-color: white;
+    border: 2px solid black;
+}
+  /*about us end*/
+/* recent work start */
+.banner4{ 
+    background-color: white;
+}
+.recent_work{ }
+.text-center {
+    text-align: center !important;
+}
+.recent_work h2{ 
+    margin: 0; 
+    padding-bottom: 65px; 
+    padding-top: 80px; 
+    font-family: 'Lato-Regular',sans-serif; 
+    font-size: 30px; 
+    font-weight: 400; 
+    color: black; 
+    text-transform: uppercase;
+}
+.item_menus{ }
+.item_menus ul li a{ 
+    font-family: 'Lato-Regular',sans-serif; 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    transition: .5s; 
+    color: #8e8e8e;
+    padding-right: 30px!important;
+    padding-bottom: 60px;
+}
+.item_menus ul li a:hover{ 
+    color: black; 
+    border: 1px solid; 
+    transform: scale(.8);
+}
+.w_images{
+    margin-bottom: 40px;
+    box-shadow: 8px 6px 17px 2px rgba(0,0,0,0.75);
+    transition: 0.33s;
+  }
+  .w_images:hover{
+    box-shadow: 8px 6px 17px 2px rgba(0,0,0,0.75);
+    transform: scale(0.95);
+  }
+/* recent work end */
+/* .work_btn{
+    margin-bottom: 40px;
+  }
+  .work_btn button{
+    margin-right: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    text-transform: uppercase;
+  }
+  .work_btn button:last-child{
+    margin-right: 0px;
+  }
+  .w_ui{
+  } */
